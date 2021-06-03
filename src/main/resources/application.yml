@@ -1,0 +1,7 @@
+server:
+  port: 8088
+spring:
+  kafka:
+    bootstrap-servers: '192.168.99.78:9092'
+    consumer:
+      group-id: "bootGroup"
